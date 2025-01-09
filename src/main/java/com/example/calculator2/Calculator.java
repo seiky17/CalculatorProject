@@ -4,13 +4,13 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Calculator {
-    // 연산 결과를 저장하는 ArrayList 타입 필드 생성
+    // 연산 결과를 저장하는 List 타입 필드 생성
     private final List<Integer> resultArray = new ArrayList<>();
     String str = "";
 
-    // ArrayList 타입의 resultArray를 리턴해주는 메서드
-    public ArrayList<Integer> getResult() {
-        return (ArrayList<Integer>) resultArray;
+    // List 타입의 resultArray를 리턴해주는 메서드
+    public List<Integer> getResult() {
+        return resultArray;
     }
 
     // resultArray의 값을 변경해주는 메서드
