@@ -1,6 +1,7 @@
 package com.example.calculator2;
 
 import java.util.ArrayList;
+import java.util.List;
 import java.util.Scanner;
 
 public class App{
@@ -44,8 +45,8 @@ public class App{
                 continue;
             }
 
-            // ArrayList 타입의 array 변수에 메서드 calculate를 수행한 결과값을 넣음
-            ArrayList<Integer> array = cal.getResult();
+            // List 타입의 array 변수에 메서드 calculate를 수행한 결과값을 넣음
+            List<Integer> array = cal.getResult();
 
             // 연산한 결과를 출력
             System.out.println("결과: " + array.get(array.size() - 1)); // 결과 출력
